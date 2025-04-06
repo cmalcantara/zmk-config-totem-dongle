@@ -38,9 +38,6 @@
         };
     };
 
-    macros {
-    };
-
     keymap {
         compatible = "zmk,keymap";
 
@@ -63,10 +60,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-       &kp Q       &kp W       &kp E        &kp R        &kp T        &kp Y    &kp U        &kp I        &kp O       &kp P
-       &mt LGUI A  &mt LALT S  &mt LCTRL D  &mt LSHFT F  &kp G        &kp H    &mt RSHFT J  &mt RCTRL K  &mt RALT L  &mt RGUI SEMI
-&kp Q  &kp Z       &kp X       &kp C        &kp V        &kp B        &kp N    &kp M        &kp COMMA    &kp DOT     &kp FSLH       &kp BSLH
-                               &kp DEL      &lt NAV TAB  &kp SPACE    &kp RET  &lt SYM ESC  &kp BSPC
+       &kp V               &kp L           &kp H               &kp G             &mt K_REDO K    &kp Q             &kp F              &kp O                &kp U            &kp J
+       &mt LEFT_CONTROL S  &mt LEFT_ALT R  &mt LEFT_COMMAND N  &mt LEFT_SHIFT T  &kp B           &kp Y             &mt RIGHT_SHIFT C  &mt RIGHT_COMMAND A  &mt RIGHT_ALT E  &mt RIGHT_CONTROL I
+&kp Q  &mt K_UNDO Z        &mt K_CUT X     &mt K_COPY M        &mt K_PASTE D     &kp P           &kp SINGLE_QUOTE  &kp W              &kp PERIOD           &kp SEMICOLON    &kp COMMA            &kp BSLH
+                                           &kp ESCAPE          &lt NAV SPACE     &kp TAB         &kp RET           &lt SYM TAB        &kp BSPC
             >;
         };
 
