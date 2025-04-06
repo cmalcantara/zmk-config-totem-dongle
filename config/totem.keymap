@@ -60,10 +60,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-       &kp V               &kp L           &kp H               &kp G             &mt K_REDO K    &kp Q             &kp F              &kp O                &kp U            &kp J
-       &mt LEFT_CONTROL S  &mt LEFT_ALT R  &mt LEFT_COMMAND N  &mt LEFT_SHIFT T  &kp B           &kp Y             &mt RIGHT_SHIFT C  &mt RIGHT_COMMAND A  &mt RIGHT_ALT E  &mt RIGHT_CONTROL I
-&kp Q  &mt K_UNDO Z        &mt K_CUT X     &mt K_COPY M        &mt K_PASTE D     &kp P           &kp SINGLE_QUOTE  &kp W              &kp PERIOD           &kp SEMICOLON    &kp COMMA            &kp BSLH
-                                           &kp ESCAPE          &lt NAV SPACE     &kp TAB         &kp RET           &lt SYM TAB        &kp BSPC
+                    &kp V               &kp L           &kp H               &kp G             &mt K_REDO K    &mt F13 Q                    &mt F14 F          &mt F15 O            &mt F16 U            &mt F17 J
+                    &mt LEFT_CONTROL S  &mt LEFT_ALT R  &mt LEFT_COMMAND N  &mt LEFT_SHIFT T  &kp B           &kp Y                        &mt RIGHT_SHIFT C  &mt RIGHT_COMMAND A  &mt RIGHT_ALT E      &mt RIGHT_CONTROL I
+&kp C_AL_NEXT_TASK  &mt K_UNDO Z        &mt K_CUT X     &mt K_COPY M        &mt K_PASTE D     &kp P           &mt LEFT_ARROW SINGLE_QUOTE  &mt DOWN_ARROW W   &mt UP_ARROW PERIOD  &mt RIGHT SEMICOLON  &kt COMMA            &kp BSLH
+                                                        &kp ESCAPE          &lt NAV SPACE     &mt F18 TAB     &kp RET                      &lt SYM TAB        &kp BSPC
             >;
         };
 
